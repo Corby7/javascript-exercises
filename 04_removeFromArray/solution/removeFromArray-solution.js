@@ -17,6 +17,8 @@ const removeFromArray = function (array, ...args) {
   return newArray;
 };
 
+console.log(removeFromArray([1, 2, 3, 4], 3))
+
 // A simpler, but more advanced way to do it is to use the 'filter' function,
 // which basically does what we did with the forEach above.
 
